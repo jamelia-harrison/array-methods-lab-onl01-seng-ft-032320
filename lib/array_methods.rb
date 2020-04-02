@@ -1,9 +1,9 @@
 def using_include(array, element)
-  array.include(element)
+  array.include?(element)
 end
 
 def using_sort(array)
-  array.sort
+  array.sort!
 end
 
 def using_reverse(array)
@@ -21,4 +21,3 @@ end
 def using_size(array)
   array.size
 end
-© 2020 GitHub, Inc.
